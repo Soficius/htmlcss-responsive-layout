@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px){
+
+    .card{
+        width: calc(( 100% / 3) - 40px);
+    }
+    .card.big{
+        width: calc((( 100% / 3) * 2 ) - 40px);
+    }
+    .aa-cards{
+        width: calc((100%/2) - 40px);
+
+    }
+}
+
+    

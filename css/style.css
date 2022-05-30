@@ -68,7 +68,6 @@ header{
     min-height: 60px;
 }
 #nav{
-    width: 100%;
     min-height: 60px;
 }
 .img ,.logo{
@@ -113,6 +112,22 @@ background-color: rgb(198, 160, 234);
 }
 .benefit{
   min-height: 50px;  
+}
+/* quarta sezione */
+.aa-cards{
+width: 100%;
+margin-top: 30px;
+min-height: 150px;
+margin-bottom: 30px;
+}
+.viola .contenuto.title{
+    width: 100%;
+}
+/* quinta sezione */
+.card-f{
+    background-color: aquamarine;
+    width: 100%;
+    margin-top: 30px; 
 }
 /* footer */
 footer{
