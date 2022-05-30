@@ -13,6 +13,8 @@
 .flex-c-column{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .between{
     justify-content:space-between;
@@ -23,6 +25,9 @@
 .m-left{
     margin-left: 20px;
 }
+.m-top{
+    margin-top: 20px;
+}
 .center{
     align-items: center;
 }
@@ -32,6 +37,27 @@
 }
 .terza{
     margin-top: 30px;
+    }
+.contenuto{
+    border: 2px dashed black;
+    margin-bottom: 30px;
+}
+.title{
+    width: 50%;
+    height: 10%;
+    margin-top: 20px;
+}
+.p{
+    width: 50%;
+    height: 30%;
+}
+.btn{
+    width: 50%;
+    height: 10%;
+}
+.imag{
+    width: 50%;
+    height: 50%;
 }
 
 /* header */
