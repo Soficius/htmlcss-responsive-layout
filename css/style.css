@@ -1,0 +1,94 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utilities */
+.flex-c-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-c-column{
+    display: flex;
+    flex-direction: column;
+}
+.between{
+    justify-content:space-between;
+}
+.m-right{
+    margin-right: 20px;
+}
+.m-left{
+    margin-left: 20px;
+}
+.center{
+    align-items: center;
+}
+.viola{
+    background-color: violet;
+    margin-top: 30px;
+}
+.terza{
+    margin-top: 30px;
+}
+
+/* header */
+/* nav */
+header{
+    background-color: blue;
+    width: 100%;
+    min-height: 60px;
+}
+#nav{
+    width: 100%;
+    min-height: 60px;
+}
+.img ,.logo{
+    border: 2px dashed black;
+    background-color: rgb(20, 163, 105);
+    height: 2rem;
+    width: 5rem;
+    margin-top: 2px;  
+}
+.card{
+    background-color: aquamarine;
+    width: 100%;
+    margin-top: 30px;
+}
+.big{
+    min-height: 280px;
+}
+.small{
+    min-height: 150px;
+}
+/* second-section */
+.a-cards{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 150px;
+    margin-bottom: 30px;
+}
+.first{
+    border: 2px dashed rgb(16, 14, 141);
+}
+.second{
+    background-color:white ;
+}
+/* terza sezione */
+.testimonials{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 150px;
+}
+.t-cards{
+background-color: rgb(198, 160, 234);
+}
+.benefit{
+  min-height: 50px;  
+}
+/* footer */
+footer{
+    background-color: rgb(52, 50, 50) ;
+}
