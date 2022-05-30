@@ -11,4 +11,24 @@
 
     }
 }
-    
+@media screen and (min-width: 992px){
+    #nav.m-right,section>:first-child {
+        margin-right: 11rem;
+    }
+    #nav.m-left,section>:first-child{
+        margin-left: 11rem;
+    }  
+    .a-cards{
+        width: calc((100% / 2) - 40px);
+    }
+    .aa-cards{
+        width: calc((100% / 3) - 40px);
+    }
+    .sb{
+        width: 80%;
+    }
+    .sm{
+        width: 20%;
+    }
+   
+}

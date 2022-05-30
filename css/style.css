@@ -59,7 +59,9 @@
     width: 50%;
     height: 50%;
 }
-
+.white{
+    background-color: white;
+}
 /* header */
 /* nav */
 header{
@@ -89,7 +91,7 @@ header{
     min-height: 150px;
 }
 /* second-section */
-.a-cards{
+.a-cards,.ab-cards{
     width: 100%;
     margin-top: 30px;
     min-height: 150px;
@@ -97,9 +99,6 @@ header{
 }
 .first{
     border: 2px dashed rgb(16, 14, 141);
-}
-.second{
-    background-color:white ;
 }
 /* terza sezione */
 .testimonials{
@@ -126,7 +125,7 @@ margin-bottom: 30px;
 /* quinta sezione */
 .card-f{
     background-color: aquamarine;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 30px; 
 }
 /* footer */
