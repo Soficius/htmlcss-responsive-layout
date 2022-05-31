@@ -3,6 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* root */
+/* colors */
+:root {
+    --blue: #0084fd;
+    --skyblue: #b5ddff;
+    --viola: #9792e4;
+    --yellow: #fdc15f;
+    --gray: #545454;
 }
 /* utilities */
 .flex-c-row{
@@ -22,6 +33,9 @@
 .m-right{
     margin-right: 20px;
 }
+.marginr-5{
+    margin-right: 5px;
+}
 .m-left{
     margin-left: 20px;
 }
@@ -39,25 +53,32 @@
     margin-top: 30px;
     }
 .contenuto{
-    border: 2px dashed black;
     margin-bottom: 30px;
 }
 .title{
-    width: 50%;
-    height: 10%;
+    /* width: 50%; */
+   text-align: center;
     margin-top: 20px;
+    font-size: 25px;
+    color: var(--blue);
 }
 .p{
-    width: 50%;
-    height: 30%;
+    width: 80%;
+    /* height: 30%; */
 }
 .btn{
-    width: 50%;
-    height: 10%;
+    width: 40%;
+    border-radius: 40px;
+    padding: 8px 0;
+    border: 0;
+    color:white;
+    background-color: var(--blue);
+    /* height: 10%; */
 }
+
 .imag{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    margin-bottom: 0;
 }
 .white{
     background-color: white;
@@ -65,30 +86,37 @@
 /* header */
 /* nav */
 header{
-    background-color: blue;
+    background-color: var(--blue);
     width: 100%;
     min-height: 60px;
 }
 #nav{
     min-height: 60px;
 }
-.img ,.logo{
-    border: 2px dashed black;
-    background-color: rgb(20, 163, 105);
-    height: 2rem;
-    width: 5rem;
+.icon ,.logo{
+    /* height: 2rem;
+    width: 5rem; */
     margin-top: 2px;  
 }
+.fa-bars{
+    color: white;
+}
 .card{
-    background-color: aquamarine;
+    background-color: var(--skyblue);
     width: 100%;
+    border-radius: 30px;
     margin-top: 30px;
 }
-.big{
-    min-height: 280px;
+.icon-card{
+    color: var(--blue);
+    margin-top: 30px;
 }
+
+/* .big{
+    min-height: 280px;
+} */
 .small{
-    min-height: 150px;
+   text-align: center;
 }
 /* second-section */
 .a-cards,.ab-cards{
