@@ -15,6 +15,24 @@
     .sm{
         width: 20%;
     }
+    .clean{
+      justify-content: flex-start; 
+    }
+    .t-cards>.immagine{
+        width: 30%;
+    }
+    .t-cards>.testo{
+        width: 70%;
+        align-items: flex-start;
+    }
+    .t-cards>.testo p{
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+    .t-cards>.testo h4{
+        margin-bottom: 60px;
+    }
 }
 @media screen and (min-width: 992px){
     #nav.m-right,section>:first-child {
@@ -29,5 +47,17 @@
     .aa-cards{
         width: calc((100% / 3) - 40px);
     }
-   
+    .card.big>*{
+        width: 50%;
+    }
+    .d-ali-self{
+        align-self: flex-end;
+    }
+    .t-cards>.immagine{
+        width: 40%;
+    }
+    .t-cards>.testo{
+        width: 60%;
+
+    }
 }

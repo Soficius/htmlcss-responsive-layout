@@ -16,6 +16,18 @@
     --gray: #545454;
 }
 /* utilities */
+.avatar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .flex-c-row{
     display: flex;
     flex-direction: row;
@@ -42,13 +54,14 @@
 .m-top{
     margin-top: 20px;
 }
+.m-bottom{
+    margin-bottom: 20px;
+}
+
 .center{
     align-items: center;
 }
-.viola{
-    background-color: violet;
-    margin-top: 30px;
-}
+
 .terza{
     margin-top: 30px;
     }
@@ -82,13 +95,27 @@
 }
 .white{
     background-color: white;
+    border-radius: 30px;
+}
+.black{
+    color: black;
+}
+.white-c{
+    color: white;
+}
+.violet-c{
+    color: var(--viola);
+}
+.violet-b{
+    background-color: var(--viola);
 }
 /* header */
 /* nav */
 header{
     background-color: var(--blue);
     width: 100%;
-    min-height: 60px;
+   
+    
 }
 #nav{
     min-height: 60px;
@@ -98,9 +125,12 @@ header{
     width: 5rem; */
     margin-top: 2px;  
 }
+
 .fa-bars{
     color: white;
 }
+/* main */
+/* prima sezione */
 .card{
     background-color: var(--skyblue);
     width: 100%;
@@ -111,7 +141,10 @@ header{
     color: var(--blue);
     margin-top: 30px;
 }
-
+.d-ali-self>img{
+    position: relative;
+    bottom:-5px;
+}
 /* .big{
     min-height: 280px;
 } */
@@ -119,37 +152,77 @@ header{
    text-align: center;
 }
 /* second-section */
+.second{
+    background-color: var(--viola);
+    margin-top: 30px;
+}
 .a-cards,.ab-cards{
     width: 100%;
     margin-top: 30px;
     min-height: 150px;
     margin-bottom: 30px;
 }
-.first{
-    border: 2px dashed rgb(16, 14, 141);
+.a-cards img{
+    margin-bottom: 60px;
 }
+.a-cards h2{
+    font-size: 35px;
+}
+.btn-row{
+    background-color: var(--viola);
+    border-radius: 50%;
+    padding: 20px;
+    border:0
+}
+
 /* terza sezione */
 .testimonials{
     width: 100%;
     margin-top: 30px;
-    min-height: 150px;
+}
+.testimonials h2{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonials p{
+    text-align: center;
 }
 .t-cards{
-background-color: rgb(198, 160, 234);
+background-color: var(--viola);
+border-radius: 40px;
+}
+.t-cards>.immagine{
+    width: 100%;
 }
 .benefit{
   min-height: 50px;  
 }
 /* quarta sezione */
+.quarta{
+    width: 100%;
+    background-color: var(--viola);
+    margin-top: 60px;
+    
+}
 .aa-cards{
 width: 100%;
 margin-top: 30px;
-min-height: 150px;
 margin-bottom: 30px;
+background-color: white;
+border-radius: 50px;
+;
 }
-.viola .contenuto.title{
+
+
+
+.benefit{
     width: 100%;
+    font-size: 40px;
+    margin-top: 40px;
 }
+
 /* quinta sezione */
 .card-f{
     background-color: aquamarine;
